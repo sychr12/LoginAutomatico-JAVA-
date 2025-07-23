@@ -7,26 +7,26 @@ public class AutomacaoSimples {
         Robot robot = new Robot();
 
         // Espera 3 segundos
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         // Move o mouse para a posição (500, 300)
         robot.mouseMove(-1049, 1060);
 
         // Chrome
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         // glpi
         robot.mouseMove(-429, 744);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         // Caixa do usuário
         robot.mouseMove(-385, 555);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(1000);
+        Thread.sleep(100);
 
         // Usuario
         robot.keyPress(KeyEvent.VK_L);
@@ -63,7 +63,7 @@ public class AutomacaoSimples {
         robot.mouseMove(-344, 636);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(1000);
+        Thread.sleep(100);
 
         // Senha
         robot.keyPress(KeyEvent.VK_L);
@@ -103,7 +103,7 @@ public class AutomacaoSimples {
 
         // Chamados
         robot.mouseMove(-1082, 158);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 

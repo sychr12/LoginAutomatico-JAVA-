@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>C:\Users\luiz.silva\Downloads\ideias\AutomacaoSimples.jar</jar>
-  <outfile>C:\Users\luiz.silva\Downloads\ideias\preguiça3.exe</outfile>
+  <outfile>C:\Users\luiz.silva\Downloads\ideias\Automação.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -15,7 +15,7 @@
   <manifest></manifest>
   <icon>C:\Users\luiz.silva\Downloads\eminem-throwing-various-objects-at-you-v0-5xerydaxwnbc1.ico</icon>
   <jre>
-    <path>%JAVA_HOME%;%PATH%</path>
+    <path>C:\Program Files\Java\jdk-23</path>
     <requiresJdk>false</requiresJdk>
     <requires64Bit>false</requires64Bit>
     <minVersion></minVersion>
