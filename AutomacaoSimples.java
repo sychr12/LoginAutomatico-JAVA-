@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -108,8 +109,10 @@ public class AutomacaoSimples {
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 
 
-
-        robot.mouseMove(-1022, 707);
+        //abrir o whatssap
+        robot.mouseMove(1060, 1060);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 
     }
 }
